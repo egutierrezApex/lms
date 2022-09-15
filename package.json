@@ -90,6 +90,9 @@
 			"not op_mini all"
 		]
 	},
+	"engines": {
+		"node": ">=12"
+	},
 	"pre-commit": [
 		"lint"
 	]
