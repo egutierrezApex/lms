@@ -1,0 +1,19 @@
+@import "./colors.scss";
+
+.btn{
+    &:link, &:visited{
+        display: inline;
+        text-decoration: none;
+    }
+
+
+    &-secondary{
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer;
+        font-size: 14px;
+        border-width: 2px;
+        color: $apex-blue;
+        border-bottom: 3px solid $apex-orange-2;
+    }
+}

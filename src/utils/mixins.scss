@@ -1,0 +1,16 @@
+$screen-md: 800px;
+$screen-lg: 1100px; 
+
+
+@mixin xs{
+  @media(max-width: $screen-md){
+    @content;
+  }
+}
+
+@mixin lg{
+  @media(max-width: $screen-lg){
+    @content;
+  }
+}
+

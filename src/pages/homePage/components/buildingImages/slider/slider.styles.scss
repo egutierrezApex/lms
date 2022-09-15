@@ -1,0 +1,48 @@
+.carousel > .thumbs-wrapper.axis-vertical{
+    display: none;
+}
+
+.carousel:last-of-type{
+    display: none;
+}
+
+.slider{
+    height: 100%;
+}
+
+.carousel-root{
+    height: 100%;
+}
+
+.carousel-slider{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.slider-wrapper.axis-horizontal{
+    width: 100%;
+    height: 100%;
+}
+
+ul.slider.animated{
+    height: 100%;
+    width: 100%;
+}
+
+li.slide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none !important;
+    img{
+        vertical-align: top;
+        border: 0;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto !important;
+        height: auto;
+    }
+}
